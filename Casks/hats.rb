@@ -10,7 +10,7 @@ cask "hats" do
   desc "Menu bar app that switches every layer of your GitHub identity at once"
   homepage "https://usehats.app"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Hats.app"
   binary "#{appdir}/Hats.app/Contents/Helpers/hats"
